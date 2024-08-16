@@ -1,0 +1,22 @@
+.add-message {
+  display: flex;
+  flex-direction: column;
+
+  &__text {
+    margin-bottom: 2rem;
+  }
+
+  &__input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #f8f8f8;
+    color: #fff;
+  }
+
+  &__button {
+    padding: 1rem;
+    background-color: #ef4343;
+    border: none;
+  }
+}
